@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(128, 128, 128, 0.5)
+}
+header {
+    background-color:  rgba(32, 126, 228, 0.896);;
+    color:  rgba(0, 0, 255);;
+    padding: 10px 0;
+    padding-bottom: 0%;
+    text-align: center;
+}
+nav{
+    background-color:  rgba(32, 126, 228, 0.896);;
+    padding: 5px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    padding: 7px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    margin-top: 20px;
+}
+#resume{
+    background-color: blue(167, 55, 55);
+    padding: 10px;
+    margin: 0;
+    color: blue;
+    text-align: center;
+}
+#list1 li{
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+}
+#name{
+    text-align: center;
+}
+#list1{
+    text-align: center;
+}
+hr {
+    border: 1px solid black;
+}
+div {
+    margin-left: 20px;
+}
+div p{
+    margin-left: 60px;
+}
+section h3{
+    margin-left: 20px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 10px;
+    padding-right: 40px; /* Adds space between images */
+  }
+  .container img {
+    width: 100%; /* Makes sure images fit the grid cell */
+    height: auto;
+    border: 2px solid #ccc; /* Optional styling */
+    border-radius: 5px; /* Optional styling */
+  }

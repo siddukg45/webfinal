@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgba(128, 128, 128, 0.5)
+}
+header {
+    background-color: rgba(32, 126, 228, 0.896);
+    color: blue;
+    padding: 10px 0;
+    padding-bottom: 0%;
+    text-align: center;
+}
+nav{
+    background-color: blue(255, 165, 0);
+    padding: 5px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    padding: 7px;
+}
+nav ul li a{
+    color: rgb(255, 253, 250);
+    text-decoration: none;
+}
+main{
+    padding: 20px;
+}
+#biomain{
+    padding: 0;
+    margin-top: 20px;
+}
+#biodata{
+    background-color: rgb(32,126,228,0.896);
+    padding: 10px;
+    margin: 0;
+    color: rgb(0, 0, 255);
+    text-align: center;
+}
+.personal {
+    display: flex;
+}
+#sec1{
+    flex : 2;
+}
+#sec2{
+    flex: 2;
+}
+#sec3{
+    flex: 1;
+}
+section ul li , aside ul li{
+    list-style-type: none;
+}
+main h3{
+    background-color:  rgb(32,126,228,0.896);
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(233, 240, 243);
+    text-align: center;
+}
+img {
+    float: right;
+    margin-right: 40px; 
+    height: 270px;
+  }
+aside ul {
+    margin-top: 63px;
+}
+pre{
+    font-family: Arial, sans-serif;
+}
+.education{
+    display: flex;
+    margin: 40px;
+}
+ul li{
+    list-style-type: none;
+}
+#sec4{
+    flex: 7;
+}
+#sec5{
+    flex: 1;
+}
+.work{
+    display: flex;
+    margin: 40px;
+}
